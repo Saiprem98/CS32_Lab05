@@ -1,0 +1,22 @@
+
+// #include "WordCount.h"
+// #include <iostream>
+// #include "tddFuncs.h"
+
+using namespace std;
+
+int main() {
+ cout << "Running tests from: " << __FILE__ << endl;
+ std::string s1 = "Bob";
+ WordCount sr; 
+ WordCount.incrWordCount(s1);
+// std::vector<std::pair<std::string, size_t> > table[5][5];
+
+// for (int i = 0; i < 5 ; i++){
+// 	for(int j = 0; j < 5 ; j++){
+
+// 	}
+// }
+
+ASSERT_EQUALS(1,sr.getTotalWords());
+}
